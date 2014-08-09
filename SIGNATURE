@@ -15,11 +15,11 @@ not run its Makefile.PL or Build.PL.
 Hash: SHA1
 
 SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 Changes
-SHA1 66095a54b0e2dd5d3da56d6f3ea20bbc6ca5a6eb Changes.ttl
+SHA1 6e340032cc87d7d2f9a953e02a5a1be9b68e231d Changes.ttl
 SHA1 b11936d525a7da21f77f2514f47682cf4e3f4cd6 Changes.xml
 SHA1 88a9956a698251e7037d96cf9091eb61793d5ab7 MANIFEST
-SHA1 9b772bb328e994e4ab5c5977d37ec867b785b432 META.yml
-SHA1 bb95c2c3485c3646194e117d6b9eaac91ade07ef Makefile.PL
+SHA1 961859cd5e5a2d7a6b6df21f8078261ae018f346 META.yml
+SHA1 86eda506f3019ae3766f1942c597d37fa391bb5b Makefile.PL
 SHA1 1a07832690375328d8ef9d5fd9250a50c7b78f9c README
 SHA1 4f7982f7e554df23debce735ab343d88d7355140 inc/Module/Install.pm
 SHA1 d001b4b9a48395a8c4134b234a0e1789138427c5 inc/Module/Install/AuthorTests.pm
@@ -31,8 +31,8 @@ SHA1 f4f3258a505a432a58cbcdc1fd030ef5e8e90985 inc/Module/Install/Makefile.pm
 SHA1 100a0dd8572f0b40373350fdd6c0a6f035d9dc39 inc/Module/Install/Metadata.pm
 SHA1 4490fed943f4e556db9fd054b7ec8765ca417f7d inc/Module/Install/Win32.pm
 SHA1 8464ddf690b9f7036a0974ff172ec0ced2f6a329 inc/Module/Install/WriteAll.pm
-SHA1 84ad9a45147b6374865941f5d244e85ec337a19e lib/IRI.pm
-SHA1 c7a6ba72e3a2d32f38bfbbf2df212580f8e35da2 t/00-simple.t
+SHA1 a8fa36827c76bc5c8d0d6f1c74b444e92fa4d61d lib/IRI.pm
+SHA1 8239904ffc3b6705243167ccb7ed4da00d5d2543 t/00-simple.t
 SHA1 eec47266aeb7f5467481218e934c40cbd87d1188 t/bugs.t
 SHA1 49bf69502718d2931ede3fa80220628841d3ab2d t/coercion.t
 SHA1 8fce98e8ce4b5ef5ea5e50e366e4014a8b659e27 xt/pod-coverage.t
@@ -41,7 +41,7 @@ SHA1 6387af7a5fde0747be5bc9ad2ec15ca9759bd95a xt/pod.t
 Version: GnuPG v1
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAlPdMJoACgkQhPK6VMqoyC34iACghFP/fIQS2HOnvZIOrTECxYS3
-eBUAnjCL3oVePtzJS3EV1XSadDtTmNRT
-=u2Ic
+iEYEARECAAYFAlPlfdoACgkQhPK6VMqoyC0uDACgsxP4nl2TL1eFepdT2UjgHw4I
+/tYAn1hBOwLUf7jaLSoSon+AzfpLAaQ9
+=StKB
 -----END PGP SIGNATURE-----

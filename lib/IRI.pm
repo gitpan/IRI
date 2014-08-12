@@ -6,7 +6,7 @@ IRI - Internationalized Resource Identifiers
 
 =head1 VERSION
 
-This document describes IRI version 0.002
+This document describes IRI version 0.003
 
 =head1 SYNOPSIS
 
@@ -58,13 +58,14 @@ Returns the respective component of the parsed IRI.
 
 =cut
 
-package IRI 0.002 {
+package IRI 0.003 {
 	use Moose;
 	use Moose::Util::TypeConstraints;
 	use v5.14;
 	use warnings;
 	
 	class_type 'URI';
+	coerce 'IRI' => from 'Str' => via { IRI->new( value => $_ ) };
 	coerce 'IRI' => from 'URI' => via { IRI->new( value => $_->as_string ) };
 
 	has 'value' => (is => 'ro', isa => 'Str', default => '');
